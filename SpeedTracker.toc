@@ -1,0 +1,9 @@
+## Interface: 120007
+## Title: SpeedTracker
+## Notes: Lightweight movement speed display. No libs, no bloat.
+## Author: morphe#11766
+## Version: 2.2.0
+## SavedVariables: SpeedTrackerDB
+## LoadOnDemand: 0
+
+SpeedTracker.lua
