@@ -1,4 +1,4 @@
-## Interface: 120007
+## Interface: 120100
 ## Title: SpeedTracker
 ## Notes: Lightweight movement speed display. No libs, no bloat.
 ## Author: morphe#11766
