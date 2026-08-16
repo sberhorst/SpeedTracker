@@ -1,3 +1,6 @@
+# Build output — release zips go to CurseForge, not into git
+dist/
+
 # Python bytecode from the test harness
 __pycache__/
 *.pyc
