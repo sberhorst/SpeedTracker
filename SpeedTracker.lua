@@ -1,5 +1,5 @@
 --[[
-    SpeedTracker v2.2.0
+    SpeedTracker v2.2.1
     by morphe#11766
     Lightweight movement speed display. No libs, no bloat.
 ]]
@@ -166,7 +166,7 @@ local function BuildPanel(panel)
 
     local sub = panel:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
     sub:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -2)
-    sub:SetText("Lightweight movement speed display  |  v2.2.0  |  morphe#11766")
+    sub:SetText("Lightweight movement speed display  |  v2.2.1  |  morphe#11766")
     sub:SetTextColor(0.55, 0.55, 0.55, 1)
 
     -- Display
@@ -301,7 +301,7 @@ initFrame:SetScript("OnEvent", function(self, event, arg1)
             UpdateSpeed()
         end)
 
-        print("|cff00ff00[SpeedTracker]|r v2.2.0 loaded.  /speed options to configure.")
+        print("|cff00ff00[SpeedTracker]|r v2.2.1 loaded.  /speed options to configure.")
         self:UnregisterEvent("ADDON_LOADED")
 
     elseif event == "PLAYER_LOGOUT" then
